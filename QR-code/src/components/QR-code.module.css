@@ -1,0 +1,17 @@
+.box {
+    background-color: white;
+    height: 550px;
+    width: 350px;
+    border-radius: 20px;
+    padding: 20px;
+    justify-content: space-between;
+}
+
+.box p {
+    color: #9196a0;
+}
+
+.code {
+    width: 350px;
+    border-radius: 20px;
+}
