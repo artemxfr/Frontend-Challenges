@@ -1,0 +1,125 @@
+@font-face {
+    font-family: 'Outfit';
+    src: url(https://fonts.google.com/specimen/Outfit);
+}
+
+.card {
+    background-color: #15263f;
+    width: 350px;
+    height: auto;
+    border-radius: 20px;
+    padding: 30px;
+    text-align: left;
+    font-family: 'Outfit';
+    font-weight: 300;
+    font-size: 18px;
+}
+
+.nft {
+    position: relative;
+}
+
+.nftImage {
+    width: 350px;
+    height: 350px;
+    border-radius: 20px;
+    font-weight: 900;
+    margin-bottom: 20px;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 350px;
+    height: 350px;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #008CBA;
+    border-radius: 20px;
+}
+
+.overlay_text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.nft:hover .overlay {
+    opacity: 0.7;
+}
+
+.title {
+    color: white;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.title:hover {
+    color: #03fdfb;
+}
+
+.description {
+    color: #8da2bf;
+}
+
+.pnt {
+    display: flex;
+    justify-content: space-between;
+    vertical-align: middle;
+    align-items: center;
+}
+
+.icon {
+    height: 25px;
+    margin-right: 10px;
+    margin-top: 15px;
+}
+
+.price {
+    display: flex;
+    color: #03fdfb;
+    vertical-align: middle;
+    font-weight: 600;
+}
+
+.time {
+    display: flex;
+    color: #8da2bf;
+    font-weight: 600;
+}
+
+.line {
+    border: 0.8px solid #8da2bf32;
+}
+
+.creator {
+    display: flex;
+    color: #8da2bf;
+    align-content: center;
+    vertical-align: middle;
+    align-items: center;
+}
+
+.name {
+    color: white;
+}
+
+.name:hover {
+    color: #03fdfb;
+}
+
+.avatar {
+    height: 30px;
+    margin-right: 20px;
+    border-radius: 50%;
+    border: 2px solid white;
+}
