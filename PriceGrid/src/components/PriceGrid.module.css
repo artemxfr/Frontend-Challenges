@@ -1,0 +1,66 @@
+@font-face {
+    font-family: 'Karla';
+    src: url('../assets/Karla/Karla-VariableFont_wght.ttf');
+}
+
+.mainbox {
+    background-color: white;
+    border-radius: 10px;
+    font-family: 'Karla';
+    font-weight: 400;
+    width: 700px;
+    height: auto;
+}
+
+.join {
+    font-weight: 700 !important;
+    padding-left: 50px;
+    padding-top: 20px;
+    height: 250px;
+    text-align: left;
+    color: black;
+}
+
+.join_main {
+    color: hsl(179, 62%, 43%);
+    font-weight: 700;
+}
+
+.greenText {
+    color: hsl(71, 73%, 54%);
+    font-weight: 700;
+}
+
+.jointext {
+    color: hsl(218, 22%, 67%);
+    font-weight: 700;
+}
+
+.twodivs {
+    display: flex;
+    text-align: left;
+    height: 250px;
+}
+
+.subscription {
+    background-color: #2cb3b1;
+    width: 50%;
+    justify-content: center;
+    vertical-align: middle;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.signup_button {
+    width: 100% !important;
+    background-color: hsl(71, 73%, 54%);
+    height: 50px;
+    width: 50%;
+}
+
+.whyus {
+    background-color: #4abdbd;
+    width: 50%;
+    padding-left: 50px;
+    padding-right: 50px;
+}
